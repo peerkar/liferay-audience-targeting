@@ -1,0 +1,14 @@
+Bundle-Name: Content Targeting OpenWeatherMap Rules
+Bundle-SymbolicName: fi.soveltia.content.targeting.rule.openweathermap
+Bundle-Version: 1.0.0
+Web-ContextPath: /openweathermap-rule
+-dsannotations-options: inherit
+Include-Resource: \
+	@org.apache.servicemix.bundles.hystrix-1.5.9_1.jar,\
+	@org.apache.servicemix.bundles.hystrix-event-stream-1.5.9_1.jar,\
+	@org.apache.servicemix.bundles.archaius-core-0.6.5_1.jar,\
+	@HdrHistogram-2.1.9.jar,\
+	@rxjava-1.2.5.jar,\
+	@commons-configuration-1.8.jar,\
+	@guava-21.0.jar
+Import-Package:	*;resolution:=optional

@@ -1,0 +1,4 @@
+Bundle-Name: Content Targeting API extension
+Bundle-SymbolicName: fi.soveltia.content.targeting.api
+Bundle-Version: 1.0.0
+Export-Package: fi.soveltia.content.targeting.rule.categories
